@@ -66,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------|           |------+------+------+------+------|
  * |   6  |   7  |   8  |   9  |   0  |           |   :  |   @  |  TAB |   *  |   ^  |
  * |------+------+------+------+------|           |------+------+------+------+------|
- * |      |   `  |   ~  |  GUI |      |           |      |   %  |   $  |   \  |      |
+ * |      |   `  |   ~  |  GUI |      |           |   ;  |   %  |   $  |   \  |      |
  * `----------------------------------'           `----------------------------------'
  *                  ,--------------------.    ,------,-------------.
  *                  |      | LOWER|      |    |      | RAISE|      |
@@ -77,7 +77,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_RAISE] = LAYOUT_split_3x5_3( \
   KC_1,    KC_2,    KC_3,    KC_4,    KC_5,         KC_PLUS, KC_MINS, KC_EQL, KC_SLSH, KC_ASTR,   \
   KC_6,    KC_7,    KC_8,    KC_9,    KC_0,         KC_COLN, KC_DQT, KC_TAB, KC_ASTR, KC_CIRC,    \
-  KC_0,    KC_GRV,  KC_PIPE, KC_LGUI, KC_0,         _______, KC_PERC, KC_DLR, KC_NUBS, _______,       \
+  KC_0,    KC_GRV,  KC_PIPE, KC_LGUI, KC_0,         KC_SCLN, KC_PERC, KC_DLR, KC_NUBS, _______,       \
                     _______, _______, _______,      _______, _______, _______                    \
 ),
 
